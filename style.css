@@ -14,42 +14,7 @@ body{
   src: url(gotham.otf);
   font-family: Gotham;
 }
-h1 {
-	font-family: Gotham;
-  white-space: pre-line;
-  word-wrap: break-word;
-}
-h2 {
-	font-family: Gotham;
-  white-space: pre-line;
-  word-wrap: break-word;
-}
-h3 {
-	font-family: Gotham;
-  white-space: pre-line;
-  word-wrap: break-word;
-}
-h4 {
-	font-family: Gotham;
-  white-space: pre-line;
-  word-wrap: break-word;
-}
-h5 {
-	font-family: Gotham;
-  white-space: pre-line;
-  word-wrap: break-word;
-}
-h6 {
-	font-family: Gotham;
-  white-space: pre-line;
-  word-wrap: break-word;
-}
-p {
-	font-family: Gotham;
-  white-space: pre-line;
-  word-wrap: break-word;
-}
-pre {
+h1,h2,h3,h4,h5,h6,p,pre{
 	font-family: Gotham;
   white-space: pre-line;
   word-wrap: break-word;
