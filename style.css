@@ -1,5 +1,10 @@
 html{
   scroll-behavior:smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+html::-webkit-scrollbar {
+  display: none;
 }
 body{
   padding:0px;
@@ -12,43 +17,53 @@ body{
 h1 {
 	font-family: Gotham;
   white-space: pre-line;
+  word-wrap: break-word;
 }
 h2 {
 	font-family: Gotham;
   white-space: pre-line;
+  word-wrap: break-word;
 }
 h3 {
 	font-family: Gotham;
   white-space: pre-line;
+  word-wrap: break-word;
 }
 h4 {
 	font-family: Gotham;
   white-space: pre-line;
+  word-wrap: break-word;
 }
 h5 {
 	font-family: Gotham;
   white-space: pre-line;
+  word-wrap: break-word;
 }
 h6 {
 	font-family: Gotham;
   white-space: pre-line;
+  word-wrap: break-word;
 }
 p {
 	font-family: Gotham;
   white-space: pre-line;
+  word-wrap: break-word;
 }
 pre {
 	font-family: Gotham;
   white-space: pre-line;
+  word-wrap: break-word;
 }
 a {
 	font-family: Gotham;
   text-decoration:none;
+  word-wrap: break-word;
   transition:1s;
 }
 a:hover{
   font-family: Gotham;
   border-bottom: solid 2px white;
+  word-wrap: break-word;
   transition: 1s;
 }
 div {
@@ -60,7 +75,7 @@ bigpage{
   height:100vh;
   padding:0px;
   margin:0px;
-  background-image: url(https://i.redd.it/lniqe8mw7fl11.png);
+  background: url(background.png) center center fixed;
   background-size:cover;
 }
 lefthalf{
@@ -82,7 +97,6 @@ righthalf{
   width:50%;
   top:0%;
   left:50%;
-  background-color: aquamarine;
 }
 header{
   position: fixed;
@@ -110,4 +124,18 @@ button:hover{
   background-color: rgba(100,255,255,0.6);
   border: none;
   transition:1s;
+}
+arrow{
+  display:block;
+  position:absolute;
+  padding:0px;
+  margin:0px;
+  clip-path: polygon(0 75%, 50% 90%, 100% 75%, 50% 100%);
+  width:100px;
+  height:100px;
+  background-color:white;
+  bottom:5%;
+  left:50%;
+  transform: translateX(-50%);
+  cursor:pointer;
 }
