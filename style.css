@@ -90,7 +90,7 @@ button:hover{
   border: none;
   transition:1s;
 }
-arrow{
+arrow {
   display:block;
   position:absolute;
   padding:0px;
