@@ -27,7 +27,7 @@ a {
 }
 a:hover{
   font-family: Gotham;
-  border-bottom: solid 2px white;
+  border-bottom: solid 1px white;
   word-wrap: break-word;
   transition: 1s;
 }
@@ -69,7 +69,7 @@ header{
   height:10vh;
   background-color: rgba(0,0,0,0.5);
   backdrop-filter: blur(3px);
-  z-index: 999999;
+  z-index: 999999998;
 }
 button{
   font-family: Gotham;
@@ -83,7 +83,7 @@ button{
 button:hover{
   cursor: pointer;
   font-family: Gotham;
-  font-family:20px;
+  font-size:20px;
   border-radius: 15px;
   padding:10px;
   background-color: rgba(100,255,255,0.6);
