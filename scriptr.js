@@ -28,3 +28,11 @@ function goSomewhere(x){
     document.getElementById("rotate").style["-webkit-transform"] = "skew("+centerxdistance+"deg,"+centerydistance+"deg)"
   }
 })();
+
+
+function showAdVideo() {
+	document.getElementById("adVideo").style.display="inline"
+	document.getElementById('playAdBtn').style.display="none"
+	document.getElementById('playAdImg').style.display="none"
+	document.getElementById("adVideo").src="https://www.youtube.com/embed/qPmrDSYhBjo?autoplay=1&modestbranding=1"
+}

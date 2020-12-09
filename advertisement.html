@@ -10,9 +10,9 @@
 <body>
   <header>
 		<center style="display:block;position:absolute;top:50%;left:50%;transform: translate(-50%,-50%);">
-			<a href="advertisement.html" style="color:white;margin:10px;">Advertisement</a>
 			<a href="index.html" style="color:white;margin:10px;">Home</a>
-			<a href="mission.html" style="color:white;margin:10px;">Our Mission</a>
+			<a href="advertisement.html" style="color:white;margin:10px;">Advertisement</a>
+			<a href="business.html" style="color:white;margin:10px;">Business Statement</a>
       <a href="shop.html" style="color:white;margin:10px;">Shop</a>
 	  <a href="name.html" style="color:white;">Our Namesake</a>
 		</center>
@@ -22,13 +22,14 @@
       <center style="display:block;position:absolute;height:100vh;width:100%;">
         <div style="color:white;margin:0px;padding:30px;display:block;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);border-radius:10px;background-color: rgba(0,0,0,0.8);">
           <h1 style="margin:0px;">Advertisement</h1>
+		  <button style="border:none;background-color:rgba(0,0,0,0);" onclick = showAdVideo() id="playAdBtn"><img src="play.png" alt="Play Button" style="width:100px;" id="playAdImg"></button>
           <br>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/qPmrDSYhBjo" frameborder="0" id="adVideo" allowfullscreen style="display:none;"></iframe>
         </div>
 		  </center>
     </div>
   </div>
-	<script src="script.js">
+	<script src="scriptr.js">
 	</script>
 </body>
 </html>

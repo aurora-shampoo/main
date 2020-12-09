@@ -14,7 +14,7 @@ body{
   src: url(gotham.otf);
   font-family: Gotham;
 }
-h1,h2,h3,h4,h5,h6,p,pre{
+h1,h2,h3,h4,h5,h6,p,pre,ul,li{
 	font-family: Gotham;
   white-space: pre-line;
   word-wrap: break-word;
@@ -103,4 +103,8 @@ arrow {
   left:50%;
   transform: translateX(-50%);
   cursor:pointer;
+}
+
+#adVideo:hover {
+	cursor:pointer;
 }
