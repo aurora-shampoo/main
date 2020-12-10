@@ -34,5 +34,5 @@ function showAdVideo() {
 	document.getElementById("adVideo").style.display="inline"
 	document.getElementById('playAdBtn').style.display="none"
 	document.getElementById('playAdImg').style.display="none"
-	document.getElementById("adVideo").src="https://www.youtube.com/embed/qPmrDSYhBjo?autoplay=1&modestbranding=1"
+	document.getElementById("adVideo").src="https://youtube.com/embed/7wpuelMvr1w?autoplay=1&modestbranding=1"
 }
